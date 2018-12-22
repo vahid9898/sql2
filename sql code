@@ -1,0 +1,10 @@
+insert into teacher (TID,tname,tfamily)
+values ('7','reza','saket');
+select * from teacher
+update teacher set tname = 'rezaa'
+where tname = 'reza'
+delete from teacher
+select * from teacher
+where tname = 'rezaa' 
+select * from teacher
+select * from student
